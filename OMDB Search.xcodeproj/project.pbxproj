@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2665B3CB0ABAA75C9CEEDBCC /* libPods-OMDB Search.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 798FB62CF63D3BB1360936C5 /* libPods-OMDB Search.a */; };
+		4AAE66621CE8F753007338F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE66611CE8F753007338F0 /* main.m */; };
+		4AAE66651CE8F753007338F0 /* OMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE66641CE8F753007338F0 /* OMAppDelegate.m */; };
+		4AAE66681CE8F753007338F0 /* OMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE66671CE8F753007338F0 /* OMViewController.m */; };
+		4AAE666B1CE8F753007338F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE66691CE8F753007338F0 /* Main.storyboard */; };
+		4AAE666D1CE8F753007338F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE666C1CE8F753007338F0 /* Assets.xcassets */; };
+		4AAE66701CE8F753007338F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE666E1CE8F753007338F0 /* LaunchScreen.storyboard */; };
+		4AAE667A1CEA2ACB007338F0 /* OMSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE66791CEA2ACB007338F0 /* OMSearchRequest.m */; };
+		4AAE667D1CEA2B73007338F0 /* OMMovieViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE667C1CEA2B73007338F0 /* OMMovieViewModel.m */; };
+		4AAE66801CEA343D007338F0 /* NSDictionary+OMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE667F1CEA343D007338F0 /* NSDictionary+OMParser.m */; };
+		4AAE66841CEA358F007338F0 /* NSArray+OMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE66831CEA358F007338F0 /* NSArray+OMParser.m */; };
+		4AAE66871CEA3D49007338F0 /* OMRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE66861CEA3D49007338F0 /* OMRequestManager.m */; };
+		4AAE668B1CEA4C22007338F0 /* NSString+OMSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE668A1CEA4C22007338F0 /* NSString+OMSearch.m */; };
+		4AAE668E1CEA55EF007338F0 /* OMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE668D1CEA55EF007338F0 /* OMDetailViewController.m */; };
+		4AAE66911CEA5B8E007338F0 /* OMDetailRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE66901CEA5B8E007338F0 /* OMDetailRequest.m */; };
+		4AAE66941CEA65BF007338F0 /* OMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE66931CEA65BF007338F0 /* OMNavigationController.m */; };
+		4AAE66981CEA8325007338F0 /* OMThumbnailImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE66971CEA8325007338F0 /* OMThumbnailImageCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A647274141A3566C044B7F5 /* Pods-OMDB Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB Search.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMDB Search/Pods-OMDB Search.debug.xcconfig"; sourceTree = "<group>"; };
+		350F3B575447DEA0A992CDA7 /* Pods-OMDB Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB Search.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMDB Search/Pods-OMDB Search.release.xcconfig"; sourceTree = "<group>"; };
+		4AAE665D1CE8F753007338F0 /* OMDB Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OMDB Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAE66611CE8F753007338F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AAE66631CE8F753007338F0 /* OMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMAppDelegate.h; sourceTree = "<group>"; };
+		4AAE66641CE8F753007338F0 /* OMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMAppDelegate.m; sourceTree = "<group>"; };
+		4AAE66661CE8F753007338F0 /* OMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMViewController.h; sourceTree = "<group>"; };
+		4AAE66671CE8F753007338F0 /* OMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMViewController.m; sourceTree = "<group>"; };
+		4AAE666A1CE8F753007338F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AAE666C1CE8F753007338F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AAE666F1CE8F753007338F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AAE66711CE8F753007338F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAE66781CEA2ACB007338F0 /* OMSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSearchRequest.h; sourceTree = "<group>"; };
+		4AAE66791CEA2ACB007338F0 /* OMSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSearchRequest.m; sourceTree = "<group>"; };
+		4AAE667B1CEA2B73007338F0 /* OMMovieViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMMovieViewModel.h; sourceTree = "<group>"; };
+		4AAE667C1CEA2B73007338F0 /* OMMovieViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMMovieViewModel.m; sourceTree = "<group>"; };
+		4AAE667E1CEA343D007338F0 /* NSDictionary+OMParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+OMParser.h"; sourceTree = "<group>"; };
+		4AAE667F1CEA343D007338F0 /* NSDictionary+OMParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+OMParser.m"; sourceTree = "<group>"; };
+		4AAE66821CEA358F007338F0 /* NSArray+OMParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+OMParser.h"; sourceTree = "<group>"; };
+		4AAE66831CEA358F007338F0 /* NSArray+OMParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+OMParser.m"; sourceTree = "<group>"; };
+		4AAE66851CEA3D49007338F0 /* OMRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMRequestManager.h; sourceTree = "<group>"; };
+		4AAE66861CEA3D49007338F0 /* OMRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMRequestManager.m; sourceTree = "<group>"; };
+		4AAE66881CEA3F19007338F0 /* OMMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMMacros.h; sourceTree = "<group>"; };
+		4AAE66891CEA4C22007338F0 /* NSString+OMSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OMSearch.h"; sourceTree = "<group>"; };
+		4AAE668A1CEA4C22007338F0 /* NSString+OMSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OMSearch.m"; sourceTree = "<group>"; };
+		4AAE668C1CEA55EF007338F0 /* OMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMDetailViewController.h; sourceTree = "<group>"; };
+		4AAE668D1CEA55EF007338F0 /* OMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMDetailViewController.m; sourceTree = "<group>"; };
+		4AAE668F1CEA5B8E007338F0 /* OMDetailRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMDetailRequest.h; sourceTree = "<group>"; };
+		4AAE66901CEA5B8E007338F0 /* OMDetailRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMDetailRequest.m; sourceTree = "<group>"; };
+		4AAE66921CEA65BF007338F0 /* OMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMNavigationController.h; sourceTree = "<group>"; };
+		4AAE66931CEA65BF007338F0 /* OMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMNavigationController.m; sourceTree = "<group>"; };
+		4AAE66951CEA665B007338F0 /* OMInternetConnectionRetryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMInternetConnectionRetryProtocol.h; sourceTree = "<group>"; };
+		4AAE66961CEA8325007338F0 /* OMThumbnailImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMThumbnailImageCache.h; sourceTree = "<group>"; };
+		4AAE66971CEA8325007338F0 /* OMThumbnailImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMThumbnailImageCache.m; sourceTree = "<group>"; };
+		798FB62CF63D3BB1360936C5 /* libPods-OMDB Search.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OMDB Search.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AAE665A1CE8F753007338F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2665B3CB0ABAA75C9CEEDBCC /* libPods-OMDB Search.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AAE66541CE8F753007338F0 = {
+			isa = PBXGroup;
+			children = (
+				4AAE665F1CE8F753007338F0 /* OMDB Search */,
+				4AAE66601CE8F753007338F0 /* Supporting Files */,
+				D06F3B9132629AA0B854AD94 /* Pods */,
+				965B84E645AB57E568DC4EA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AAE665E1CE8F753007338F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE665D1CE8F753007338F0 /* OMDB Search.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4AAE665F1CE8F753007338F0 /* OMDB Search */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE66631CE8F753007338F0 /* OMAppDelegate.h */,
+				4AAE66641CE8F753007338F0 /* OMAppDelegate.m */,
+				4AAE66921CEA65BF007338F0 /* OMNavigationController.h */,
+				4AAE66931CEA65BF007338F0 /* OMNavigationController.m */,
+				4AAE66661CE8F753007338F0 /* OMViewController.h */,
+				4AAE66671CE8F753007338F0 /* OMViewController.m */,
+				4AAE668C1CEA55EF007338F0 /* OMDetailViewController.h */,
+				4AAE668D1CEA55EF007338F0 /* OMDetailViewController.m */,
+				4AAE66781CEA2ACB007338F0 /* OMSearchRequest.h */,
+				4AAE66791CEA2ACB007338F0 /* OMSearchRequest.m */,
+				4AAE668F1CEA5B8E007338F0 /* OMDetailRequest.h */,
+				4AAE66901CEA5B8E007338F0 /* OMDetailRequest.m */,
+				4AAE667B1CEA2B73007338F0 /* OMMovieViewModel.h */,
+				4AAE667C1CEA2B73007338F0 /* OMMovieViewModel.m */,
+				4AAE66851CEA3D49007338F0 /* OMRequestManager.h */,
+				4AAE66861CEA3D49007338F0 /* OMRequestManager.m */,
+				4AAE66961CEA8325007338F0 /* OMThumbnailImageCache.h */,
+				4AAE66971CEA8325007338F0 /* OMThumbnailImageCache.m */,
+				4AAE66881CEA3F19007338F0 /* OMMacros.h */,
+				4AAE66951CEA665B007338F0 /* OMInternetConnectionRetryProtocol.h */,
+				4AAE66811CEA357A007338F0 /* Helpers */,
+				4AAE66691CE8F753007338F0 /* Main.storyboard */,
+			);
+			path = "OMDB Search";
+			sourceTree = "<group>";
+		};
+		4AAE66601CE8F753007338F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE665E1CE8F753007338F0 /* Products */,
+				4AAE666C1CE8F753007338F0 /* Assets.xcassets */,
+				4AAE666E1CE8F753007338F0 /* LaunchScreen.storyboard */,
+				4AAE66711CE8F753007338F0 /* Info.plist */,
+				4AAE66611CE8F753007338F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "OMDB Search";
+			sourceTree = "<group>";
+		};
+		4AAE66811CEA357A007338F0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE667E1CEA343D007338F0 /* NSDictionary+OMParser.h */,
+				4AAE667F1CEA343D007338F0 /* NSDictionary+OMParser.m */,
+				4AAE66821CEA358F007338F0 /* NSArray+OMParser.h */,
+				4AAE66831CEA358F007338F0 /* NSArray+OMParser.m */,
+				4AAE66891CEA4C22007338F0 /* NSString+OMSearch.h */,
+				4AAE668A1CEA4C22007338F0 /* NSString+OMSearch.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		965B84E645AB57E568DC4EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				798FB62CF63D3BB1360936C5 /* libPods-OMDB Search.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D06F3B9132629AA0B854AD94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A647274141A3566C044B7F5 /* Pods-OMDB Search.debug.xcconfig */,
+				350F3B575447DEA0A992CDA7 /* Pods-OMDB Search.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AAE665C1CE8F753007338F0 /* OMDB Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAE66741CE8F753007338F0 /* Build configuration list for PBXNativeTarget "OMDB Search" */;
+			buildPhases = (
+				60E668BCBC59CE3637EF18C0 /* 📦 Check Pods Manifest.lock */,
+				4AAE66591CE8F753007338F0 /* Sources */,
+				4AAE665A1CE8F753007338F0 /* Frameworks */,
+				4AAE665B1CE8F753007338F0 /* Resources */,
+				A799EEA86B61A2C40C1F2542 /* 📦 Embed Pods Frameworks */,
+				7DF719281566196FF35AF6B7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OMDB Search";
+			productName = "OMDB Search";
+			productReference = 4AAE665D1CE8F753007338F0 /* OMDB Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AAE66551CE8F753007338F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OM;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = OMDB;
+				TargetAttributes = {
+					4AAE665C1CE8F753007338F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4AAE66581CE8F753007338F0 /* Build configuration list for PBXProject "OMDB Search" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AAE66541CE8F753007338F0;
+			productRefGroup = 4AAE665E1CE8F753007338F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AAE665C1CE8F753007338F0 /* OMDB Search */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AAE665B1CE8F753007338F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAE66701CE8F753007338F0 /* LaunchScreen.storyboard in Resources */,
+				4AAE666D1CE8F753007338F0 /* Assets.xcassets in Resources */,
+				4AAE666B1CE8F753007338F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60E668BCBC59CE3637EF18C0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF719281566196FF35AF6B7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OMDB Search/Pods-OMDB Search-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A799EEA86B61A2C40C1F2542 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OMDB Search/Pods-OMDB Search-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AAE66591CE8F753007338F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAE66681CE8F753007338F0 /* OMViewController.m in Sources */,
+				4AAE668E1CEA55EF007338F0 /* OMDetailViewController.m in Sources */,
+				4AAE667D1CEA2B73007338F0 /* OMMovieViewModel.m in Sources */,
+				4AAE66981CEA8325007338F0 /* OMThumbnailImageCache.m in Sources */,
+				4AAE66941CEA65BF007338F0 /* OMNavigationController.m in Sources */,
+				4AAE66911CEA5B8E007338F0 /* OMDetailRequest.m in Sources */,
+				4AAE668B1CEA4C22007338F0 /* NSString+OMSearch.m in Sources */,
+				4AAE66651CE8F753007338F0 /* OMAppDelegate.m in Sources */,
+				4AAE66621CE8F753007338F0 /* main.m in Sources */,
+				4AAE667A1CEA2ACB007338F0 /* OMSearchRequest.m in Sources */,
+				4AAE66871CEA3D49007338F0 /* OMRequestManager.m in Sources */,
+				4AAE66801CEA343D007338F0 /* NSDictionary+OMParser.m in Sources */,
+				4AAE66841CEA358F007338F0 /* NSArray+OMParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AAE66691CE8F753007338F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AAE666A1CE8F753007338F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AAE666E1CE8F753007338F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AAE666F1CE8F753007338F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AAE66721CE8F753007338F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AAE66731CE8F753007338F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AAE66751CE8F753007338F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A647274141A3566C044B7F5 /* Pods-OMDB Search.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OMDB Search/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omdbapi.OMDB-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AAE66761CE8F753007338F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350F3B575447DEA0A992CDA7 /* Pods-OMDB Search.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OMDB Search/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omdbapi.OMDB-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AAE66581CE8F753007338F0 /* Build configuration list for PBXProject "OMDB Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAE66721CE8F753007338F0 /* Debug */,
+				4AAE66731CE8F753007338F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAE66741CE8F753007338F0 /* Build configuration list for PBXNativeTarget "OMDB Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAE66751CE8F753007338F0 /* Debug */,
+				4AAE66761CE8F753007338F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AAE66551CE8F753007338F0 /* Project object */;
+}
